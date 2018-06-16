@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" href="css/style.css">
+    	<title>Original.Io Front-End Test</title>
+    	<link href="http://weloveiconfonts.com/api/?family=zocial" rel="stylesheet">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header class="header-content">
+
+			<div class="header-logo">
+				<img src="img/Vector.png" alt="logo-page">
+			</div>
+			<!-- HEADER MENU -->
+			<hr class="hairline">
+
+			<nav class="navbar">
+				<div class="nav-left">
+					<a href="#" title="Entrar" id="entrar" class="entrar">Entrar</a>
+					<a href="#" title="Cadastrar" id="cadastrar" class="cadastrar">Cadastrar</a>
+				</div>
+
+				<div class="nav-center">
+					<ul class="nav-lista">
+						<li><a href="#" id="sapatos">Sapatos</a></li>
+						<li><a href="#" id="bolsas">Bolsas</a></li>
+						<li><a href="#" id="acessorios">Acessórios</a></li>
+						<li><a href="#" id="off">off</a></li>
+					</ul>
+				</div>
+
+				<div class="nav-right">
+					<form class="form-buscar">
+						<input type="search" name="buscar" id="btn-buscar" placeholder="Busca">
+					</form>
+					<div class="sacola-de-compra">
+						<p id="quantidade">0</p>
+					</div>
+				</div>	
+			</nav>
+
+			<hr class="hairline">
+
+		</header>
+
+		<!-- SECTION PRODUTO -->
+		<section class="section-produto">
+			
+			<!-- CATEGORIA -->
+			<div class="categoria">
+				<a href="index.html">Home</a>
+				<span>/</span>
+				<a href="#" id="categoria-secao">Sapatos</a>
+			</div>
+			
+			<div class="foto">
+				<!-- BARRA LATERAL -->
+				<div class="video">
+					<p>Vídeo</p>
+					<a href="#">
+						<img src="img/video.png">
+					</a>
+					<i class="arrow up"></i>
+					<div class="thumbs">
+						<img src="img/prod02.png" alt="Rasteira tira dedo" class="slide-images">
+						<img src="img/prod02.png" alt="Rasteira tira dedo" class="slide-images opacity">
+						<img src="img/prod02.png" alt="Rasteira tira dedo" class="slide-images opacity">
+						<img src="img/prod02.png" alt="Rasteira tira dedo" class="slide-images opacity">
+					</div>
+					<i class="arrow down"></i>
+				</div>
+
+				<!-- IMAGEM PRODUTO -->
+				<div class="fotos-prod">
+					<img src="img/prod02.png" alt="Rasteira tira dedo" class="img">
+				</div>
+
+				<!-- INFORMAÇAO PRODUTO -->
+				<div class="info-produto">
+					<div class="produto-texto">
+						<h1 id="nome-produto">Rasteira tira dedo</h1>
+						<h3 id="codigo-produto">RT 0568 | 03.07.0653</h3>
+					</div>
+						
+					<div class="preco">
+						<h3 id="preco-produto">R$ 69,00 |</h3>
+						 <h3 id="desconto-produto">R$ 55,00</h3>
+					</div>
+
+					<div class="parcela">
+						<h4 id="parcela-produto">Ou 6x de R$9,20</h4>
+					</div>
+					
+					<p id="cor-texto">Cor:<span id="cor">(Fuscia)</span></p>
+					<div class="cor">
+						<div class="cores rosa"></div>
+						<div class="cores azul"></div>
+						<div class="cores laranja"></div>
+						<div class="cores preto"></div>
+					</div>
+
+					<div class="tamanho">
+						<div class="tamanho-texto">
+							<p>Tamanho:</p>
+							<p id="tamanho-selecionado">(37)</p>
+							<p id="guia-de-medida">Guia de medidas</p>
+						</div>
+
+						<div class="numeros-tamanhos">
+							<button class="tamanhos">33</button>
+							<button class="tamanhos">34</button>
+							<button class="tamanhos">35</button>
+							<button class="tamanhos">36</button>
+							<button class="tamanhos">37</button>
+							<button class="tamanhos">38</button>
+							<button class="tamanhos">39</button>
+							<button class="tamanhos">40</button>
+							<button class="tamanhos">41</button>
+							<button class="tamanhos">42</button>
+						</div>
+					</div>
+
+					<div class="btn">
+						<button type="submit" form="form1" value="Submit" id="btn-adicionar">Adicionar à sacola</button>
+						<p class="descricao-produto">Rasteira em atanado soft com tira no dedo e fechamento de fivela. Possui sola sempre na cor do cabedal.</p>
+					</div>
+				</div>
+			</div>
+
+				<!-- HR NA SECTION PRODUTO -->
+				<div class="linha-produtos">
+					<hr class="linha">
+					<hr class="linha-cima">
+				</div>
+
+		</section>
+		
+		<!-- SECTION PRATELEIRA -->
+		<section class="prateleira-prod">
+
+			<h1>Quem viu viu também</h1>
+			
+			<div class="prateleira-padrao">
+
+				
+
+				<div class="prateleira img-prateleira">
+					<img src="img/prod03.png" class="img-produtos" alt="Bolsa de couro">
+					<div class="menu">
+						<p class="preco-prateleira">R$ 204,90</p>
+						<span class="cores-prateleira rosa"></span>
+						<span class="cores-prateleira azul"></span>
+						<span class="cores-prateleira laranja"></span>
+						<span class="cores-prateleira preto"></span>
+					</div>
+					<button class="btn-prateleira btn-color" id="btn-prateleira">+</button>
+				</div>
+
+				<div class="prateleira img-prateleira">
+					<img src="img/prod04.png" class="img-produtos" alt="Sapato aberto">
+					<div class="menu">
+						<p class="preco-prateleira">R$ 204,90</p>
+						<span class="cores-prateleira rosa"></span>
+						<span class="cores-prateleira azul"></span>
+						<span class="cores-prateleira laranja"></span>
+						<span class="cores-prateleira preto"></span>
+					</div>
+					<button class="btn-prateleira btn-color" id="btn-prateleira">+</button>
+				</div>
+
+				<div class="prateleira img-prateleira">
+					<img src="img/prod02.png" class="img-produtos" alt="Rasteira tira dedo">
+					<div class="menu">
+						<p class="preco-prateleira">R$ 204,90</p>
+						<span class="cores-prateleira rosa"></span>
+						<span class="cores-prateleira azul"></span>
+						<span class="cores-prateleira laranja"></span>
+						<span class="cores-prateleira preto"></span>
+					</div>
+					<button class="btn-prateleira btn-color" id="btn-prateleira">+</button>
+				</div>
+
+				<div class="prateleira img-prateleira">
+					<img src="img/prod01.png" class="img-produtos" alt="Carteira de couro">
+					<div class="menu">
+						<p class="preco-prateleira">R$ 204,90</p>
+						<span class="cores-prateleira rosa"></span>
+						<span class="cores-prateleira azul"></span>
+						<span class="cores-prateleira laranja"></span>
+						<span class="cores-prateleira preto"></span>
+					</div>
+					<button class="btn-prateleira btn-color" id="btn-prateleira">+</button>
+				</div>
+			</div>
+
+			<div class="controle-slide">
+				<a href="#" class="btn-tamanho previous round">&#8249;</a>
+				<span class="numeracao-pagina">1 de 10</span>
+				<a href="#" class="btn-tamanho next round">&#8250;</a>
+			</div>
+		</section>
+		
+		<!-- FOOTER -->
+		<footer class="footer">
+
+			<hr class="linha-footer">
+			<div class="contato-news">
+				<h1>Assine nossa News</h1>
+				<form class="form-news" action="#">
+  					<input type="text" name="nome" value="" class="input-news" placeholder="Nome">
+  					<br>
+ 					<input type="email" name="email" value="" class="input-news" placeholder="E-mail">
+  					<br><br>
+  					<input type="submit" value="ENVIAR" class="btn-news">
+				</form>
+			</div>
+
+			<div class="footer-content">
+
+				<div class="redes-sociais">	
+					<a href="" class="zocial-facebook" title="Facebook"></a>
+					<a href="" class="zocial-instagram" title="Instagram"></a>
+					<a href="" class="zocial-pinterest" title="Pinterest"></a>
+					<div class="selos">
+						<img src="img/vtex-pci-200.png" alt="vtex certificado">
+						<img src="img/selo-ebit.png" alt="ebit certificado">
+					</div>
+				</div>
+
+				
+
+				<div class="links-centro">
+
+					<div class="link-lista">
+						<ul>
+							<li class="links-centro-titulo">Institucional</li>
+							<li class="link-texto"><a href="">A Marca</a></li>
+							<li class="link-texto"><a href="">Lojas</a></li>
+							<li class="link-texto"><a href="">Contato</a></li>
+						</ul>
+					</div>
+
+					<div class="link-lista">
+						<ul>
+							<li class="links-centro-titulo">Informacoes</li>
+							<li class="link-texto"><a href="">Formas de Pagamento</a></li>
+							<li class="link-texto"><a href="">Trocas e Devoluções</a></li>
+							<li class="link-texto"><a href="">Cuidados com o Produto</a></li>
+						</ul>
+					</div>
+
+					<div class="link-lista">
+						<ul>
+							<li class="links-centro-titulo">Conheça</li>
+							<li class="link-texto"><a href="">Franquias e Multimarcas</a></li>
+							<li class="link-texto"><a href="">Trabalhe com a Gente</a></li>
+							<li class="link-texto"><a href="">Procon-RJ</a></li>
+						</ul>
+   
+					</div>
+				</div>
+
+			</div>
+			
+			<div class="faixa-baixo">
+
+				<div class="faixa-baixo-texto">
+					<p>Via Mia | V. Milano Centro Comercio de Bolsas Eireli - EPP.</p>
+					<p>Av.das Américas, 500 - bloco 20, loja 126 - Barra da Tijuca - Rio de Janeiro - RJ - CEP: 22640-100</p>
+					<p>CNPJ: 05.292.288/0002-10 - I.E: 86.732.548 - E-mail: ecommerce@viamia.com.br</p>
+				</div>
+
+				<div class="logo-footer">
+					<img src="img/logo-footer.png" alt="logo footer">
+				</div>
+
+			</div>
+		</footer>
+
+
+		<!-- Modal -->
+		<div class="modal" id="modal">
+			
+			<!-- Modal Content -->
+			<div class="modal-content">
+		
+				<div class="modal-container">
+					<span class="close">&times;</span>
+					<img src="img/prod02.png" alt="Rasteira tira dedo" class="modal-img">
+					<p class="modal-text">Adicionado com sucesso!</p>
+					<button type="button" class="btn-modal">Finalizar compra</button>
+					<a href="#" class="modal-compra">Continuar Comprando</a>
+				</div>
+		
+			</div>
+		
+		</div>
+
+		<script src="js/app.js"></script>
+	</body>
+</html>
+
